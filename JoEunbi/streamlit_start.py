@@ -84,6 +84,7 @@ def main():
         col_buttons = st.columns([1, 1, 1, 0.2, 1, 1, 1])
         with col_buttons[2]:
             if st.button('제품 문의', use_container_width=True):
+                st.session_state.page == 'product_manual'
                 st.write("제품 사용방법에 대한 문의 페이지로 이동합니다.")
         with col_buttons[4]:
             if st.button('수리비 문의', use_container_width=True):
