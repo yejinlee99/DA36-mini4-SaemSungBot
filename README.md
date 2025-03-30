@@ -69,8 +69,7 @@
 
 -----
 ### **시연 영상**
-<img width="578" alt="image" src="https://github.com/user-attachments/assets/ceeb6771-ebcb-4fcb-8ad6-0ec5fc38feec" />
-![예진의 채널에서 보기](https://youtu.be/3w0_B91eKoQ?si=1NGb68Ao_8qHo_7y)
+![<img width="578" alt="image" src="https://github.com/user-attachments/assets/ceeb6771-ebcb-4fcb-8ad6-0ec5fc38feec" />](https://youtu.be/3w0_B91eKoQ?si=1NGb68Ao_8qHo_7y)
 
 -----
 
