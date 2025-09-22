@@ -2,6 +2,12 @@
 
 ![대문 이미지](image/SAEMSUNGBOT.png)
 
+<p align="center">
+  <a href="#-한국어">🇰🇷 한국어</a> | 
+  <a href="#-english">🇺🇸 English</a>
+</p>
+
+## 🇰🇷 한국어
 **프로젝트 이름** : SAEMSUNGBOT
 
 **팀 이름** : SAEMSUNGBOT(샘숭이)
@@ -98,4 +104,94 @@
 
 
 ---------
+
+<br><br><br><br><br>
+## 🇺🇸 English
+# 🤖 SAEMSUNGBOT | LLM RAG-based Chatbot
+
+![Main Image](image/SAEMSUNGBOT.png)
+
+**Project Name**: SAEMSUNGBOT  
+
+**Team Name**: SAEMSUNGBOT (“Saemsung-i”)  
+
+**Project Overview**: A chatbot for more convenient product guidance, SAEMSUNGBOT  
+
+--------
+
+### **Background**
+1. The existing Samsung chatbot required users to look up and enter the product serial number. We wanted to improve accessibility by allowing both product name and serial number searches.  
+2. The chatbot limited users to pre-set questions, with restricted response coverage.  
+3. Repair costs were difficult to find except for a few products.  
+
+![Background1](image/background_1.png)  
+![Background2](image/background_2.png)  
+
+### **Objective**
+**We aimed to create a chatbot that enables more convenient search and provides deeper information.**
+
+-------
+
+### **💻 Project Introduction**
+- **Project Period**: 2024.12.18 ~ 12.20  
+- **Team Members**: Yejin Lee, Eunbi Jo, Chaeyeon Heo  
+- **Goal**: Develop an improved chatbot “Saemsung-i”  
+
+![Project Intro](image/background_3.png)
+
+--------
+
+### **Data Collection & Preprocessing**
+**Datasets**  
+- Product manuals (PDF) uploaded on Samsung Electronics’ official site  
+- A manually created CSV file containing product names, model names, and component prices from Samsung’s site  
+
+**Examples of Product Manuals (PDF)**  
+![Manual Example 1](image/Data_Introduction_phone.png)  
+![Manual Example 2](image/Data_Introduction_oven.png)  
+
+**Example of Repair Cost CSV File**  
+![Repair CSV Example](image/Data_Introduction.png)  
+
+-----
+
+### **🧠 Prompt Flowchart**
+![Prompt Flowchart](image/Product_Chatbot.png)
+
+-----
+
+### **📺 Chatbot Response - Product Feature Chatbot**
+![Product Chatbot Response](image/Product_Feature_Chatbot.png)
+
+-----
+
+### **👩‍🔧 Chatbot Response - Product Repair Chatbot**
+![Repair Chatbot Response](image/Product_Repair_Chatbot.png)
+
+-----
+
+### **Demo Video**
+[<img width="578" alt="image" src="https://github.com/user-attachments/assets/ceeb6771-ebcb-4fcb-8ad6-0ec5fc38feec" />](https://youtu.be/3w0_B91eKoQ?si=1NGb68Ao_8qHo_7y)
+
+-----
+
+### **Expected Benefits**
+More detailed answers, more convenient service:  
+- Provides detailed responses about product usage and repair costs.  
+- Covers questions that OpenAI or Samsung’s chatbot previously could not answer.  
+- Helps users access services more easily.  
+
+----
+
+### **Reflections**
+
+**Yejin**  
+- It was exciting to directly design prompts and apply them to the model. Through this project, we explored how to make the Samsung chatbot more convenient for users. I realized that even existing chatbots had functions users still wished for. I want to continue developing the habit of seeking ways to upgrade services further.  
+
+**Eunbi**  
+- During the process of finding suitable datasets, I learned when and how RAG is most appropriately applied. I hope to study further and develop services that provide greater convenience.  
+
+**Chaeyeon**  
+- (to be added)
+
 
